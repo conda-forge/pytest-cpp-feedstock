@@ -14,9 +14,8 @@ Summary: Use pytest's runner to discover and execute C++ tests
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/pytest-cpp-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/pytest-cpp-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/pytest-cpp-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/pytest-cpp-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/pytest-cpp-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/pytest-cpp-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pytest-cpp-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pytest-cpp-feedstock)
 
 Current release info
 ====================

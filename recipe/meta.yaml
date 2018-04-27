@@ -1,6 +1,6 @@
 {% set name = "pytest-cpp" %}
-{% set version = "0.4.5" %}
-{% set sha256 = "8cd3b88b6289f0f04e10de0f7dc92c51842fd425b94f02286f5614c8c1651c6c" %}
+{% set version = "1.0.1" %}
+{% set sha256 = "ad91db3f2f1be917a619a89ea986dfc5b757ec6dc34cc750d584f4f65595ffd0" %}
 
 package:
   name: {{ name|lower }}
@@ -12,13 +12,16 @@ source:
   sha256: {{ sha256 }}
 
 build:
+  noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
+    - pip
     - setuptools
+    - setuptools_scm
   run:
     - python
     - pytest

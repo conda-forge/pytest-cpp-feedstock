@@ -1,6 +1,6 @@
 {% set name = "pytest-cpp" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "8560137edc795327dbf40591c2a7fc787af6a13f9fafe5ddd82e05edfe239bb5" %}
+{% set version = "1.2.0" %}
+{% set sha256 = "24a5703e73249829a66265f3a2650e48f7304878cbc5b07e64daa983db93741c" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:

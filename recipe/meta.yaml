@@ -1,6 +1,6 @@
 {% set name = "pytest-cpp" %}
-{% set version = "1.5.0" %}
-{% set sha256 = "efb7eaac30f9f61515be181d04b70d80d60ce8871426f726ef1844e2db4f3353" %}
+{% set version = "2.0.0" %}
+{% set sha256 = "6ccbf23fbdef49ab016086a94e127c8a8c9fc2663d40705702a5581c49a243cf" %}
 
 package:
   name: {{ name|lower }}
@@ -18,12 +18,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip
     - setuptools
     - setuptools_scm
   run:
-    - python >=2.7
+    - python >=3.6
     - pytest
 
 test:

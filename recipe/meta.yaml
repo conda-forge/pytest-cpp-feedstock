@@ -1,6 +1,6 @@
 {% set name = "pytest-cpp" %}
-{% set version = "2.1.0" %}
-{% set sha256 = "b21f93ff912bc6d1f3e0339dc06a7eacdaad0667e036a054a966c075d76973a4" %}
+{% set version = "2.1.1" %}
+{% set sha256 = "ab740db361b4eb9e7f1571a8c80b0fbde333c195e3289f87561a38529c743ebd" %}
 
 package:
   name: {{ name|lower }}

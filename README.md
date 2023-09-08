@@ -1,11 +1,11 @@
-About pytest-cpp
-================
+About pytest-cpp-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-cpp-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/pytest-dev/pytest-cpp
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-cpp-feedstock/blob/main/LICENSE.txt)
 
 Summary: Use pytest's runner to discover and execute C++ tests
 

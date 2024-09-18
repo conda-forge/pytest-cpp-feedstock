@@ -1,6 +1,6 @@
 {% set name = "pytest-cpp" %}
-{% set version = "2.5.0" %}
-{% set sha256 = "695604baa21bc95291bb4ea7263a7aa960753de57c2d17d224c4652fbcf65cdc" %}
+{% set version = "2.6.0" %}
+{% set sha256 = "c2f49d3c038539ac84786a94d852e4f4619c34c95979c2bc69c20b3bdf051d85" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:

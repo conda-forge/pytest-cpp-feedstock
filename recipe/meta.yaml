@@ -18,13 +18,13 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
     - setuptools
     - setuptools_scm
   run:
-    - python >=3.7
-    - pytest >=7.0
+    - python >=3.8
+    - pytest
 
 test:
   imports:
@@ -34,7 +34,7 @@ about:
   home: http://github.com/pytest-dev/pytest-cpp
   license: MIT
   license_file: LICENSE
-  summary: Use pytest's runner to discover and execute C++ tests
+  summary: "Use pytest's runner to discover and execute C++ tests"
 
 extra:
   recipe-maintainers:
